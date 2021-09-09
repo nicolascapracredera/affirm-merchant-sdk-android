@@ -47,7 +47,7 @@ public class AffirmPlugins {
         }
     }
 
-    static void reset() {
+    public static void reset() {
         synchronized (LOCK) {
             instance = null;
         }
